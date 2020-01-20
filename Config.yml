@@ -1,0 +1,147 @@
+Buy:
+    Preview:
+        Menu: '&aBuying {item}'
+        Lore:
+        - ''
+        - '&8&l➩ &7&nInfo:'
+        - '&e&l➩ &7Purchase Price &8&l➥ &a&n{BuyPrice} &a$'
+        - '&e&l➩ &7Sell Price &8&l➥ &c&n{SellPrice} &a$'
+    More:
+        Menu: '&aBuying stacks of {item}'
+        Lore:
+        - ''
+        - '&8&l➩ &7&nInfo:'
+        - ''
+        - '&e&l➩ &7Purchase &e&n{stacks} stacks &7 of {item}'
+        - '&e&l➩ &7Purchase Price &8&l➥ &e&n{price} &a$'
+        - ''
+        - '&8&l➩ &aClick to Purchase.'
+
+Sell:
+    Preview:
+        Menu: '&cSelling {item}'
+        Lore:
+        - ''
+        - '&8&l➩ &7&nInfo:'
+        - '&e&l➩ &7Purchase Price &8&l➥ &a&n{BuyPrice} &a$'
+        - '&e&l➩ &7Sell Price &8&l➥ &c&n{SellPrice} &a$'
+    More:
+        Menu: '&cSelling stacks of {item}'
+        Lore:
+        - ''
+        - '&8&l➩ &7&nInfo:'
+        - ''
+        - '&e&l➩ &7Selling &e&n{stacks} stacks &7 of {item}'
+        - '&e&l➩ &7Selling Price &8&l➥ &e&n{price} &a$'
+        - ''
+        - '&8&l➩ &aClick to Sell.'
+
+Buttons:
+    Confirm:
+        Name: '&8&l» &aConfirm'
+        Item: green glass block
+        Slot: 39
+        Lore:
+        - ''
+    Cancel:
+        Name: '&8&l» &cCancel'
+        Item: red glass block
+        Slot: 41
+        Lore:
+        - ''
+    Back:
+        Name: '&8&l» &7&nBack'
+        Item: nether star
+        Lore:
+        - ''
+    Buy-More:
+        Name: '&8&l» &3&nBuy More'
+        Item: chest
+        Slot: 49
+        Lore:
+        - ''
+    Sell-More:
+        Name: '&8&l» &c&nSell More'
+        Item: chest
+        Slot: 49
+        Lore:
+        - ''
+    Next-Page:
+        Name: '&a&l» &7&nNext Page'
+        Item: arrow
+        Slot: 53
+        Lore:
+        - ''
+    Previous-Page:
+        Name: '&c&l« &7&nPrevious Page'
+        Item: arrow
+        Slot: 45
+        Lore:
+        - ''
+    Add-1:
+        Name: '&8&l» &aAdd 1'
+        Item: green glass
+        Slot: 24
+        Lore:
+        - ''
+    Add-10:
+        Name: '&8&l» &aAdd 10'
+        Item: green glass
+        Slot: 25
+        Lore:
+        - ''
+    Remove-1:
+        Name: '&8&l» &cRemove 1'
+        Item: red glass
+        Slot: 20
+        Lore:
+        - ''
+    Remove-10:
+        Name: '&8&l» &cRemove 10'
+        Item: red glass
+        Slot: 21
+        Lore:
+        - ''
+    Set-1:
+        Name: '&8&l» &cSet to 1'
+        Item: red glass
+        Slot: 19
+        Lore:
+        - ''
+    Set-64:
+        Name: '&8&l» &aSet to 64'
+        Item: green glass
+        Slot: 26
+        Lore:
+        - ''
+
+Messages:
+    Purchase: '&8&l» &aYou bought &7&n{amount}&a of &7&n{item} &afor &7&n{price}.
+        &a$'
+    Sold: '&8&l» &cYou sold &7&n{amount}&c of &7&n{item} &cfor &7&n{price}. &a$'
+    No-money: '&8&l» &aYou need &7&n{price} &a$ to buy &7&n{amount}&a of &7&n{item}'
+    Inventory-Full: '&8&l» &aYou cannot hold this amount!'
+    Not-Enough: '&8&l» &aYou do not have &7&n{amount}&a of &7&n{item} &ato sell.'
+    No-Permission: '&8&l» &cYou do not have permission to use this Command!'
+
+Sounds:
+    Purchase:
+        Sound: NOTE_STICKS
+        Volume: 1.0
+        Pitch: 1.0
+    Sold:
+        Sound: NOTE_STICKS
+        Volume: 1.0
+        Pitch: 1.0
+    No-Money:
+        Sound: ANVIL_BREAK
+        Volume: 1.0
+        Pitch: 1.0
+    Not-Enough:
+        Sound: ANVIL_BREAK
+        Volume: 1.0
+        Pitch: 1.0
+    Open-Menu:
+        Sound: CHICKEN_EGG_POP
+        Volume: 1.0
+        Pitch: 1.0
