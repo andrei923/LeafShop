@@ -1,9 +1,9 @@
 Shop:
-    GUI: '&8&l» &3&nShop'
-    size: 4
-    fill-empty-spaces: gray glass pane
-    sell-percentage: 20
-    default-Item-lore:
+    Menu: '&8&l» &3&nShop'
+    Size: 4
+    Fill-Empty-Spaces: gray glass pane
+    Sell-Percentage: 20
+    Default-Item-lore:
     - ''
     - '&8&l➩ &7&nInfo:'
     - '&e&l➩ &7Purchase Prince &8&l➥ &a&n{BuyPrice} &a$'
@@ -14,971 +14,974 @@ Shop:
     not-sellable: '&cThis item cannot be sold.'
     Categories:
         Blocks:
-            GUI: '&8&l» &2&nBlocks &8▪ &6&n{page}&r &8▪'
-            size: 6
-            type: category
-            name: '&8▪ &a&nBlocks &8▪'
-            slot: 11
-            back-slot: 49
-            display: Grass
-            lore:
+            Menu: '&8&l» &2&nBlocks &8▪ &6&n{Page}&r &8▪'
+            Size: 6
+            Type: Category
+            Name: '&8▪ &a&nBlocks &8▪'
+            Slot: 11
+            Back-Slot: 49
+            Display: Grass
+            Lore:
             - ''
             - '&8&l▪ &7Purchase Building blocks.'
-            page:
+            Page:
                 '1':
                     Grass:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nGrass'
-                            msg: '&aGrass'
-                        slot: 10
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nGrass'
+                            Msg: '&aGrass'
+                        Slot: 10
                         BuyPrice: 500
-                        item: grass
+                        Item: grass
+                        Lore:
+                        - '&8&l➥ &e{BuyPrice} &a$'
+                        SellPrice: 1
                     Oak Wood Log:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nOak Wood Log'
-                            msg: '&aOak Wood Log'
-                        slot: 11
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nOak Wood Log'
+                            Msg: '&aOak Wood Log'
+                        Slot: 11
                         BuyPrice: 10
-                        item: Oak Wooden Log
+                        Item: Oak Wooden Log
                     Spruce Wood Log:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nSpruce Wood Log'
-                            msg: '&aSpruce Wood Log'
-                        slot: 12
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nSpruce Wood Log'
+                            Msg: '&aSpruce Wood Log'
+                        Slot: 12
                         BuyPrice: 250
-                        item: Spruce Wooden Log
+                        Item: Spruce Wooden Log
                     Jungle Wood Log:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nJungle Wood Log'
-                            msg: '&aOak Wood Log'
-                        slot: 13
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nJungle Wood Log'
+                            Msg: '&aOak Wood Log'
+                        Slot: 13
                         BuyPrice: 250
-                        item: Jungle Wood Log
+                        Item: Jungle Wood Log
                     Birch Wood Log:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nBirch Wood Log'
-                            msg: '&aOak Wood Log'
-                        slot: 14
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nBirch Wood Log'
+                            Msg: '&aOak Wood Log'
+                        Slot: 14
                         BuyPrice: 250
-                        item: Birch Wood Log
+                        Item: Birch Wood Log
                     Acacia Wood Log:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nAcacia Wood Log'
-                            msg: '&aAcacia Wood Log'
-                        slot: 15
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nAcacia Wood Log'
+                            Msg: '&aAcacia Wood Log'
+                        Slot: 15
                         BuyPrice: 250
-                        item: Acacia Wood Log
+                        Item: Acacia Wood Log
                     Brick Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nBrick Block'
-                            msg: '&aBrick Block'
-                        slot: 16
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nBrick Block'
+                            Msg: '&aBrick Block'
+                        Slot: 16
                         BuyPrice: 500
-                        item: Brick Block
+                        Item: Brick Block
                     BookShelf:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nBookShelf'
-                            msg: '&aBookShelf'
-                        slot: 19
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nBookShelf'
+                            Msg: '&aBookShelf'
+                        Slot: 19
                         BuyPrice: 1000
-                        item: BookShelf
+                        Item: BookShelf
                     Gravel:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nGravel'
-                            msg: '&aGravel'
-                        slot: 20
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nGravel'
+                            Msg: '&aGravel'
+                        Slot: 20
                         BuyPrice: 10
-                        item: gravel
+                        Item: gravel
                     Stone:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nStone'
-                            msg: '&aStone'
-                        slot: 21
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nStone'
+                            Msg: '&aStone'
+                        Slot: 21
                         BuyPrice: 150
-                        item: stone
+                        Item: stone
                     CobbleStone:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nCobbleStone'
-                            msg: '&aCobbleStone'
-                        slot: 22
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nCobbleStone'
+                            Msg: '&aCobbleStone'
+                        Slot: 22
                         BuyPrice: 100
-                        item: cobble_stone
+                        Item: cobble_stone
                     Stone Bricks:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nStone Bricks'
-                            msg: '&aStone Brick'
-                        slot: 23
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nStone Bricks'
+                            Msg: '&aStone Brick'
+                        Slot: 23
                         BuyPrice: 500
-                        item: Stone Bricks
+                        Item: Stone Bricks
                     Mossy Stone Brick:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nMoss Stone'
-                            msg: '&aMoss Stone'
-                        slot: 24
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nMoss Stone'
+                            Msg: '&aMoss Stone'
+                        Slot: 24
                         BuyPrice: 500
-                        item: Mossy Stone Brick
+                        Item: Mossy Stone Brick
                     Decorated Brick:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nDecorated Brick'
-                            msg: '&aDecorated Brick'
-                        slot: 25
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nDecorated Brick'
+                            Msg: '&aDecorated Brick'
+                        Slot: 25
                         BuyPrice: 500
-                        item: Decorated Brick
+                        Item: Decorated Brick
                     Obsidian:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nObsidian'
-                            msg: '&aObsidian'
-                        slot: 28
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nObsidian'
+                            Msg: '&aObsidian'
+                        Slot: 28
                         BuyPrice: 650
-                        item: Obsidian
+                        Item: Obsidian
                     Nether Brick:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nNether Brick'
-                            msg: '&aNether Brick'
-                        slot: 29
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nNether Brick'
+                            Msg: '&aNether Brick'
+                        Slot: 29
                         BuyPrice: 500
-                        item: nether brick block
+                        Item: nether brick block
                     Netherrack:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nNetherrack'
-                            msg: '&aNetherrack'
-                        slot: 30
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nNetherrack'
+                            Msg: '&aNetherrack'
+                        Slot: 30
                         BuyPrice: 100
-                        item: Netherrack
+                        Item: Netherrack
                     Mycelium:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nMycelium'
-                            msg: '&aMycelium'
-                        slot: 31
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nMycelium'
+                            Msg: '&aMycelium'
+                        Slot: 31
                         BuyPrice: 1500
-                        item: Mycelium
+                        Item: Mycelium
                     Sand:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nSand'
-                            msg: '&aSand'
-                        slot: 32
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nSand'
+                            Msg: '&aSand'
+                        Slot: 32
                         BuyPrice: 250
-                        item: sand
+                        Item: sand
                     Podzol:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nPodzol'
-                            msg: '&aPodzol'
-                        slot: 33
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nPodzol'
+                            Msg: '&aPodzol'
+                        Slot: 33
                         BuyPrice: 500
-                        item: Podzol
+                        Item: Podzol
                     Polished Andesite:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nPolished Andesite'
-                            msg: '&aPolished Andesite'
-                        slot: 34
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nPolished Andesite'
+                            Msg: '&aPolished Andesite'
+                        Slot: 34
                         BuyPrice: 500
-                        item: Polished Andesite
+                        Item: Polished Andesite
                     Sea Lantern:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nSea Lantern'
-                            msg: '&aSea Lantern'
-                        slot: 37
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nSea Lantern'
+                            Msg: '&aSea Lantern'
+                        Slot: 37
                         BuyPrice: 1000
-                        item: Sea Lantern
+                        Item: Sea Lantern
                     GlowStone:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nGlowStone'
-                            msg: '&aGlowStone'
-                        slot: 38
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nGlowStone'
+                            Msg: '&aGlowStone'
+                        Slot: 38
                         BuyPrice: 1000
-                        item: GlowStone
+                        Item: GlowStone
                     White Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nWhite Clay'
-                            msg: '&aWhite Clay'
-                        slot: 39
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nWhite Clay'
+                            Msg: '&aWhite Clay'
+                        Slot: 39
                         BuyPrice: 300
-                        item: White Clay
+                        Item: White Clay
                     Orange Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nOrange Clay'
-                            msg: '&aOrange Clay'
-                        slot: 40
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nOrange Clay'
+                            Msg: '&aOrange Clay'
+                        Slot: 40
                         BuyPrice: 300
-                        item: Orange Clay
+                        Item: Orange Clay
                     Magenta Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nMagenta Clay'
-                            msg: '&aMagenta Clay'
-                        slot: 41
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nMagenta Clay'
+                            Msg: '&aMagenta Clay'
+                        Slot: 41
                         BuyPrice: 300
-                        item: Magenta Clay
+                        Item: Magenta Clay
                     Light Blue Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nLight Blue Clay'
-                            msg: '&aLight Blue Clay'
-                        slot: 42
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nLight Blue Clay'
+                            Msg: '&aLight Blue Clay'
+                        Slot: 42
                         BuyPrice: 300
-                        item: Light Blue Clay
+                        Item: Light Blue Clay
                     Yellow Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nYellow Clay'
-                            msg: '&aYellow Clay'
-                        slot: 43
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nYellow Clay'
+                            Msg: '&aYellow Clay'
+                        Slot: 43
                         BuyPrice: 300
-                        item: Yellow Clay
+                        Item: Yellow Clay
                 '2':
                     Light Green Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nLight Green Clay'
-                            msg: '&aLime Clay'
-                        slot: 10
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nLight Green Clay'
+                            Msg: '&aLime Clay'
+                        Slot: 10
                         BuyPrice: 300
-                        item: Light Green Clay
+                        Item: Light Green Clay
                     Pink Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nPink Clay'
-                            msg: '&aPink Clay'
-                        slot: 11
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nPink Clay'
+                            Msg: '&aPink Clay'
+                        Slot: 11
                         BuyPrice: 300
-                        item: Pink Clay
+                        Item: Pink Clay
                     Gray Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nGray Clay'
-                            msg: '&aGray Clay'
-                        slot: 12
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nGray Clay'
+                            Msg: '&aGray Clay'
+                        Slot: 12
                         BuyPrice: 300
-                        item: Gray Clay
+                        Item: Gray Clay
                     Light Gray Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nLight Gray Clay'
-                            msg: '&aLight Gray Clay'
-                        slot: 13
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nLight Gray Clay'
+                            Msg: '&aLight Gray Clay'
+                        Slot: 13
                         BuyPrice: 300
-                        item: Light Gray Clay
+                        Item: Light Gray Clay
                     Cyan Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nCyan Clay'
-                            msg: '&aCyan Clay'
-                        slot: 14
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nCyan Clay'
+                            Msg: '&aCyan Clay'
+                        Slot: 14
                         BuyPrice: 300
-                        item: Cyan Clay
+                        Item: Cyan Clay
                     Purple Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nPurple Clay'
-                            msg: '&aPurple Clay'
-                        slot: 15
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nPurple Clay'
+                            Msg: '&aPurple Clay'
+                        Slot: 15
                         BuyPrice: 300
-                        item: Purple Clay
+                        Item: Purple Clay
                     Blue Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nBlue Clay'
-                            msg: '&aBlue Clay'
-                        slot: 16
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nBlue Clay'
+                            Msg: '&aBlue Clay'
+                        Slot: 16
                         BuyPrice: 300
-                        item: Blue Clay
+                        Item: Blue Clay
                     Brown Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nBrown Clay'
-                            msg: '&aBrown Clay'
-                        slot: 19
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nBrown Clay'
+                            Msg: '&aBrown Clay'
+                        Slot: 19
                         BuyPrice: 300
-                        item: Brown Clay
+                        Item: Brown Clay
                     Green Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nGreen Clay'
-                            msg: '&aGreen Clay'
-                        slot: 20
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nGreen Clay'
+                            Msg: '&aGreen Clay'
+                        Slot: 20
                         BuyPrice: 300
-                        item: Green Clay
+                        Item: Green Clay
                     Red Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nRed Clay'
-                            msg: '&aRed Clay'
-                        slot: 21
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nRed Clay'
+                            Msg: '&aRed Clay'
+                        Slot: 21
                         BuyPrice: 10
-                        item: Red Clay
+                        Item: Red Clay
                     Black Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nBlack Clay'
-                            msg: '&aBlack Clay'
-                        slot: 22
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nBlack Clay'
+                            Msg: '&aBlack Clay'
+                        Slot: 22
                         BuyPrice: 300
-                        item: Black Clay
+                        Item: Black Clay
                     Hardened Clay:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nHardened Clay'
-                            msg: '&aHardened Clay'
-                        slot: 23
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nHardened Clay'
+                            Msg: '&aHardened Clay'
+                        Slot: 23
                         BuyPrice: 300
-                        item: Hardened Clay
+                        Item: Hardened Clay
                     White Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nWhite Glass Block'
-                            msg: '&aWhite Glass Block'
-                        slot: 24
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nWhite Glass Block'
+                            Msg: '&aWhite Glass Block'
+                        Slot: 24
                         BuyPrice: 300
-                        item: White Glass Block
+                        Item: White Glass Block
                     Orange Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nOrange Glass Block'
-                            msg: '&aOrange Glass Block'
-                        slot: 25
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nOrange Glass Block'
+                            Msg: '&aOrange Glass Block'
+                        Slot: 25
                         BuyPrice: 300
-                        item: Orange Glass Block
+                        Item: Orange Glass Block
                     Magenta Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nMagenta Glass Block'
-                            msg: '&aMagenta Glass Block'
-                        slot: 28
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nMagenta Glass Block'
+                            Msg: '&aMagenta Glass Block'
+                        Slot: 28
                         BuyPrice: 300
-                        item: Magenta Glass Block
+                        Item: Magenta Glass Block
                     Light Blue Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nLight Blue Glass Block'
-                            msg: '&aLight Blue Glass Block'
-                        slot: 29
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nLight Blue Glass Block'
+                            Msg: '&aLight Blue Glass Block'
+                        Slot: 29
                         BuyPrice: 300
-                        item: Light Blue Glass Block
+                        Item: Light Blue Glass Block
                     Yellow Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nYellow Glass Block'
-                            msg: '&aYellow Glass Block'
-                        slot: 30
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nYellow Glass Block'
+                            Msg: '&aYellow Glass Block'
+                        Slot: 30
                         BuyPrice: 300
-                        item: Yellow Glass Block
+                        Item: Yellow Glass Block
                     Light Green Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nLight Green Glass Block'
-                            msg: '&aLime Glass Block'
-                        slot: 31
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nLight Green Glass Block'
+                            Msg: '&aLime Glass Block'
+                        Slot: 31
                         BuyPrice: 300
-                        item: Light Green Glass Block
+                        Item: Light Green Glass Block
                     Pink Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nPink Glass Block'
-                            msg: '&aPink Glass Block'
-                        slot: 32
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nPink Glass Block'
+                            Msg: '&aPink Glass Block'
+                        Slot: 32
                         BuyPrice: 300
-                        item: Pink Glass Block
+                        Item: Pink Glass Block
                     Gray Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nGray Glass Block'
-                            msg: '&aGray Glass Block'
-                        slot: 33
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nGray Glass Block'
+                            Msg: '&aGray Glass Block'
+                        Slot: 33
                         BuyPrice: 300
-                        item: gray Glass Block
+                        Item: gray Glass Block
                     Light gray Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nLight gray Glass Block'
-                            msg: '&aLight gray Glass Block'
-                        slot: 34
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nLight gray Glass Block'
+                            Msg: '&aLight gray Glass Block'
+                        Slot: 34
                         BuyPrice: 300
-                        item: Light gray Glass Block
+                        Item: Light gray Glass Block
                     Cyan Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nCyan Glass Block'
-                            msg: '&aCyan Glass Block'
-                        slot: 37
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nCyan Glass Block'
+                            Msg: '&aCyan Glass Block'
+                        Slot: 37
                         BuyPrice: 300
-                        item: Cyan Glass Block
+                        Item: Cyan Glass Block
                     Purple Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nPurple Glass Block'
-                            msg: '&aPurple Glass Block'
-                        slot: 38
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nPurple Glass Block'
+                            Msg: '&aPurple Glass Block'
+                        Slot: 38
                         BuyPrice: 300
-                        item: Purple Glass Block
+                        Item: Purple Glass Block
                     Blue Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nBlue Glass Block'
-                            msg: '&aBlue Glass Block'
-                        slot: 39
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nBlue Glass Block'
+                            Msg: '&aBlue Glass Block'
+                        Slot: 39
                         BuyPrice: 300
-                        item: Blue Glass Block
+                        Item: Blue Glass Block
                     Brown Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nBrown Glass Block'
-                            msg: '&aBrown Glass Block'
-                        slot: 40
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nBrown Glass Block'
+                            Msg: '&aBrown Glass Block'
+                        Slot: 40
                         BuyPrice: 300
-                        item: Brown Glass Block
+                        Item: Brown Glass Block
                     Green Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nGreen Glass Block'
-                            msg: '&aGreen Glass Block'
-                        slot: 41
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nGreen Glass Block'
+                            Msg: '&aGreen Glass Block'
+                        Slot: 41
                         BuyPrice: 300
-                        item: Green Glass Block
+                        Item: Green Glass Block
                     Red Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nRed Glass Block'
-                            msg: '&aRed Glass Block'
-                        slot: 42
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nRed Glass Block'
+                            Msg: '&aRed Glass Block'
+                        Slot: 42
                         BuyPrice: 300
-                        item: Red Glass Block
+                        Item: Red Glass Block
                     Black Glass Block:
-                        type: item
-                        name:
-                            gui: '&8&l» &a&nBlack Glass Block'
-                            msg: '&aVlack Glass Block'
-                        slot: 43
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &a&nBlack Glass Block'
+                            Msg: '&aVlack Glass Block'
+                        Slot: 43
                         BuyPrice: 300
-                        item: black Glass pane Block
+                        Item: black Glass pane Block
         Gear:
-            GUI: '&8&l» &b&nGear'
-            size: 6
-            type: category
-            name: '&8▪ &b&nGear &8▪'
-            slot: 12
-            back-slot: 49
-            fill-empty-spaces: black Glass pane
-            display: Diamond chestplate
-            lore:
+            Menu: '&8&l» &b&nGear'
+            Size: 6
+            Type: Category
+            Name: '&8▪ &b&nGear &8▪'
+            Slot: 12
+            Back-Slot: 49
+            Fill-Empty-Spaces: black Glass pane
+            Display: Diamond chestplate
+            Lore:
             - ''
             - '&8&l➩ &7Purchase Armor and Weapons.'
-            page:
+            Page:
                 '1':
                     Diamond Helmet:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nDiamond Helmet'
-                            msg: '&4&nDiamond Helmet'
-                        slot: 0
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nDiamond Helmet'
+                            Msg: '&4&nDiamond Helmet'
+                        Slot: 0
                         BuyPrice: 10000
-                        item: diamond helmet
+                        Item: diamond helmet
                     Diamond ChestPlate:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nDiamond Chestplate'
-                            msg: '&4&nDiamond Chestplate'
-                        slot: 9
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nDiamond Chestplate'
+                            Msg: '&4&nDiamond Chestplate'
+                        Slot: 9
                         BuyPrice: 13000
-                        item: diamond chestplate
+                        Item: diamond chestplate
                     Diamond Leggings:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nDiamond Leggings'
-                            msg: '&4&nDiamond Leggings'
-                        slot: 18
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nDiamond Leggings'
+                            Msg: '&4&nDiamond Leggings'
+                        Slot: 18
                         BuyPrice: 14000
-                        item: diamond leggings
+                        Item: diamond leggings
                     Diamond Boots:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nDiamond Boots'
-                            msg: '&4&nDiamond Boots'
-                        slot: 27
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nDiamond Boots'
+                            Msg: '&4&nDiamond Boots'
+                        Slot: 27
                         BuyPrice: 800
-                        item: diamond boots
+                        Item: diamond boots
                     Iron Helmet:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nIron Helmet'
-                            msg: '&4&nIron Helmet'
-                        slot: 2
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nIron Helmet'
+                            Msg: '&4&nIron Helmet'
+                        Slot: 2
                         BuyPrice: 2500
-                        item: iron helmet
+                        Item: iron helmet
                     Iron Chestplate:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nIron Chestplate'
-                            msg: '&4&nIron Chestplate'
-                        slot: 11
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nIron Chestplate'
+                            Msg: '&4&nIron Chestplate'
+                        Slot: 11
                         BuyPrice: 4000
-                        item: iron chestplate
+                        Item: iron chestplate
                     Iron Leggings:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nIron Leggings'
-                            msg: '&4&nIron Leggings'
-                        slot: 20
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nIron Leggings'
+                            Msg: '&4&nIron Leggings'
+                        Slot: 20
                         BuyPrice: 3500
-                        item: iron leggings
+                        Item: iron leggings
                     Iron Boots:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nIron Boots'
-                            msg: '&4&nIron Boots'
-                        slot: 29
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nIron Boots'
+                            Msg: '&4&nIron Boots'
+                        Slot: 29
                         BuyPrice: 2000
-                        item: iron boots
+                        Item: iron boots
                     Gold Helmet:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nGold Helmet'
-                            msg: '&4&nGold Helmet'
-                        slot: 4
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nGold Helmet'
+                            Msg: '&4&nGold Helmet'
+                        Slot: 4
                         BuyPrice: 2000
-                        item: gold helmet
+                        Item: gold helmet
                     Gold Chestplate:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nGold Chestplate'
-                            msg: '&4&nGold Chestplate'
-                        slot: 13
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nGold Chestplate'
+                            Msg: '&4&nGold Chestplate'
+                        Slot: 13
                         BuyPrice: 3500
-                        item: gold chestplate
+                        Item: gold chestplate
                     Gold Leggings:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nGold Leggings'
-                            msg: '&4&nGold Leggings'
-                        slot: 22
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nGold Leggings'
+                            Msg: '&4&nGold Leggings'
+                        Slot: 22
                         BuyPrice: 3000
-                        item: gold leggings
+                        Item: gold leggings
                     Gold Boots:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nGold Boots'
-                            msg: '&4&nGold Boots'
-                        slot: 31
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nGold Boots'
+                            Msg: '&4&nGold Boots'
+                        Slot: 31
                         BuyPrice: 1500
-                        item: gold boots
+                        Item: gold boots
                     Chain Helmet:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nChain Helmet'
-                            msg: '&4&nChain Helmet'
-                        slot: 6
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nChain Helmet'
+                            Msg: '&4&nChain Helmet'
+                        Slot: 6
                         BuyPrice: 2500
-                        item: chain helmet
+                        Item: chain helmet
                     Chain Chestplate:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nChain Chestplate'
-                            msg: '&4&nChain Chestplate'
-                        slot: 15
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nChain Chestplate'
+                            Msg: '&4&nChain Chestplate'
+                        Slot: 15
                         BuyPrice: 4000
-                        item: chain chestplate
+                        Item: chain chestplate
                     Chain Leggings:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nChain Leggings'
-                            msg: '&4&nChain Leggings'
-                        slot: 24
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nChain Leggings'
+                            Msg: '&4&nChain Leggings'
+                        Slot: 24
                         BuyPrice: 3500
-                        item: chain leggings
+                        Item: chain leggings
                     Chain Boots:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nChain Boots'
-                            msg: '&4&nChain Boots'
-                        slot: 33
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nChain Boots'
+                            Msg: '&4&nChain Boots'
+                        Slot: 33
                         BuyPrice: 2000
-                        item: chain boots
+                        Item: chain boots
                     Wood Sword:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nWooded Sword'
-                            msg: '&4&nWooden Sword'
-                        slot: 8
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nWooded Sword'
+                            Msg: '&4&nWooden Sword'
+                        Slot: 8
                         BuyPrice: 100
-                        item: wood sword
+                        Item: wood sword
                     Stone Sword:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nStone Sword'
-                            msg: '&4&nStone Sword'
-                        slot: 17
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nStone Sword'
+                            Msg: '&4&nStone Sword'
+                        Slot: 17
                         BuyPrice: 300
-                        item: stone sword
+                        Item: stone sword
                     Iron Sword:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nIron Sword'
-                            msg: '&4&nIron Sword'
-                        slot: 26
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nIron Sword'
+                            Msg: '&4&nIron Sword'
+                        Slot: 26
                         BuyPrice: 1500
-                        item: iron sword
+                        Item: iron sword
                     Diamond Sword:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nDiamond Sword'
-                            msg: '&4&nDiamond Sword'
-                        slot: 35
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nDiamond Sword'
+                            Msg: '&4&nDiamond Sword'
+                        Slot: 35
                         BuyPrice: 5000
-                        item: diamond sword
+                        Item: diamond sword
                     Bow:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nBow'
-                            msg: '&4&nBow'
-                        slot: 39
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nBow'
+                            Msg: '&4&nBow'
+                        Slot: 39
                         BuyPrice: 500
-                        item: bow
+                        Item: bow
                     Arrow:
-                        type: item
-                        name:
-                            gui: '&8&l» &4&nArrow'
-                            msg: '&4&nArrow'
-                        slot: 41
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &4&nArrow'
+                            Msg: '&4&nArrow'
+                        Slot: 41
                         BuyPrice: 25
-                        item: arrow
+                        Item: arrow
         Food:
-            GUI: '&8&l» &6&nFood'
-            size: 6
-            type: category
-            name: '&8▪ &a&nFood &8▪'
-            slot: 13
-            back-slot: 49
-            display: Bread
-            fill-empty-spaces: gray glass pane
-            lore:
+            Menu: '&8&l» &6&nFood'
+            Size: 6
+            Type: Category
+            Name: '&8▪ &a&nFood &8▪'
+            Slot: 13
+            Back-Slot: 49
+            Display: Bread
+            Fill-Empty-Spaces: gray glass pane
+            Lore:
             - ''
-            page:
+            Page:
                 '1':
                     Red Apple:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nApple'
-                            msg: '&6&nApple'
-                        slot: 20
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nApple'
+                            Msg: '&6&nApple'
+                        Slot: 20
                         BuyPrice: 500
-                        item: 16 red apple
+                        Item: 16 red apple
                     Bread:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nBread'
-                            msg: '&6&nBread'
-                        slot: 12
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nBread'
+                            Msg: '&6&nBread'
+                        Slot: 12
                         BuyPrice: 500
-                        item: 16 bread
+                        Item: 16 bread
                     Raw Porkchop:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nRaw Porkchop'
-                            msg: '&6&nRaw Porkchop'
-                        slot: 21
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nRaw Porkchop'
+                            Msg: '&6&nRaw Porkchop'
+                        Slot: 21
                         BuyPrice: 650
-                        item: 16 raw porkchop
+                        Item: 16 raw porkchop
                     Cooked Porkchop:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nCoocked Porkchop'
-                            msg: '&6&nCoocked Porkchop'
-                        slot: 22
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nCoocked Porkchop'
+                            Msg: '&6&nCoocked Porkchop'
+                        Slot: 22
                         BuyPrice: 650
-                        item: 16 cooked porkchop
+                        Item: 16 cooked porkchop
                     Raw Fish:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nRaw Fish'
-                            msg: '&6&nRaw Fish'
-                        slot: 23
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nRaw Fish'
+                            Msg: '&6&nRaw Fish'
+                        Slot: 23
                         BuyPrice: 1000
-                        item: 16 raw fish
+                        Item: 16 raw fish
                     Cooked Fish:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nCoocked Fish'
-                            msg: '&6&nCooked Fish'
-                        slot: 24
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nCoocked Fish'
+                            Msg: '&6&nCooked Fish'
+                        Slot: 24
                         BuyPrice: 1010
-                        item: 16 cooked fish
+                        Item: 16 cooked fish
                     Clownfish:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nClown Fish'
-                            msg: '&6&nClown Fish'
-                        slot: 28
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nClown Fish'
+                            Msg: '&6&nClown Fish'
+                        Slot: 28
                         BuyPrice: 500
-                        item: 16 Clownfish
+                        Item: 16 Clownfish
                     Cooked Salmon:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nCooked Salmon'
-                            msg: '&6&nCooked Salmon'
-                        slot: 29
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nCooked Salmon'
+                            Msg: '&6&nCooked Salmon'
+                        Slot: 29
                         BuyPrice: 1010
-                        item: 16 Cooked Salmon
+                        Item: 16 Cooked Salmon
                     Raw Chicken:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nRaw Chicken'
-                            msg: '&6&nRaw Chicken'
-                        slot: 30
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nRaw Chicken'
+                            Msg: '&6&nRaw Chicken'
+                        Slot: 30
                         BuyPrice: 10
-                        item: Raw Chicken
+                        Item: Raw Chicken
                     Cooked Chicken:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nCooked Chicken'
-                            msg: '&6&nCooked Chicken'
-                        slot: 31
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nCooked Chicken'
+                            Msg: '&6&nCooked Chicken'
+                        Slot: 31
                         BuyPrice: 500
-                        item: 16 Cooked Chicken
+                        Item: 16 Cooked Chicken
                     Raw Rabbit:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nRaw Rabbit'
-                            msg: '&6&nRaw Rabbit'
-                        slot: 32
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nRaw Rabbit'
+                            Msg: '&6&nRaw Rabbit'
+                        Slot: 32
                         BuyPrice: 500
-                        item: 16 Raw Rabbit
+                        Item: 16 Raw Rabbit
                     Cooked Rabbit:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nCooked Rabbit'
-                            msg: '&6&nCooked Rabbit'
-                        slot: 33
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nCooked Rabbit'
+                            Msg: '&6&nCooked Rabbit'
+                        Slot: 33
                         BuyPrice: 505
-                        item: 16 Cooked Rabbit
+                        Item: 16 Cooked Rabbit
                     Raw Beef:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nRaw Beef'
-                            msg: '&6&nRaw Beef'
-                        slot: 34
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nRaw Beef'
+                            Msg: '&6&nRaw Beef'
+                        Slot: 34
                         BuyPrice: 500
-                        item: Raw Beef
+                        Item: Raw Beef
                     Steak:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nSteak'
-                            msg: '&6&nSteak'
-                        slot: 14
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nSteak'
+                            Msg: '&6&nSteak'
+                        Slot: 14
                         BuyPrice: 650
-                        item: 16 Steak
+                        Item: 16 Steak
                     Cake:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nCake'
-                            msg: '&6&nCake'
-                        slot: 13
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nCake'
+                            Msg: '&6&nCake'
+                        Slot: 13
                         BuyPrice: 1000
-                        item: 16 Cake
+                        Item: 16 Cake
         Ores:
-            GUI: '&8&l» &5Ores'
-            size: 5
-            type: category
-            name: '&8▪ &5Ores &8▪'
-            fill-empty-spaces: gray glass pane
-            slot: 14
-            back-slot: 40
-            display: gold ingot
-            lore:
+            Menu: '&8&l» &5Ores'
+            Size: 5
+            Type: Category
+            Name: '&8▪ &5Ores &8▪'
+            Fill-Empty-Spaces: gray glass pane
+            Slot: 14
+            Back-Slot: 40
+            Display: gold ingot
+            Lore:
             - ''
-            page:
+            Page:
                 '1':
                     Coal:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nCoal'
-                            msg: '&6&nCoal'
-                        slot: 11
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nCoal'
+                            Msg: '&6&nCoal'
+                        Slot: 11
                         BuyPrice: 500
-                        item: Coal
+                        Item: Coal
                     Redstone:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nRedstone'
-                            msg: '&6&nRedstone'
-                        slot: 12
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nRedstone'
+                            Msg: '&6&nRedstone'
+                        Slot: 12
                         BuyPrice: 500
-                        item: Redstone
+                        Item: Redstone
                     LapisLazuli:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nLapis Lazuli'
-                            msg: '&6&nLapis Lazuli'
-                        slot: 13
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nLapis Lazuli'
+                            Msg: '&6&nLapis Lazuli'
+                        Slot: 13
                         BuyPrice: 500
-                        item: Lapis Lazuli
+                        Item: Lapis Lazuli
                     Iron ingot:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nIron Ingot'
-                            msg: '&6&nIron Ingot'
-                        slot: 14
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nIron Ingot'
+                            Msg: '&6&nIron Ingot'
+                        Slot: 14
                         BuyPrice: 500
-                        item: Iron Ingot
+                        Item: Iron Ingot
                     Gold ingot:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nGold Ingot'
-                            msg: '&6&nGold Ingot'
-                        slot: 15
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nGold Ingot'
+                            Msg: '&6&nGold Ingot'
+                        Slot: 15
                         BuyPrice: 500
-                        item: Gold Ingot
+                        Item: Gold Ingot
                     Diamond:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nDiamond'
-                            msg: '&6&nDiamond'
-                        slot: 21
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nDiamond'
+                            Msg: '&6&nDiamond'
+                        Slot: 21
                         BuyPrice: 2000
-                        item: Diamond
+                        Item: Diamond
                     Emerald:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nEmerald'
-                            msg: '&6&nEmerald'
-                        slot: 22
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nEmerald'
+                            Msg: '&6&nEmerald'
+                        Slot: 22
                         BuyPrice: 2000
-                        item: Emerald
+                        Item: Emerald
                     Nether Quartz:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nNether Quartz'
-                            msg: '&6&nNether Quartz'
-                        slot: 23
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nNether Quartz'
+                            Msg: '&6&nNether Quartz'
+                        Slot: 23
                         BuyPrice: 500
-                        item: Nether Quartz
+                        Item: Nether Quartz
         Tools:
-            GUI: '&8&l» &7&nTools'
-            size: 6
-            type: category
-            name: '&8▪ &7Tools &8▪'
-            slot: 15
-            back-slot: 49
-            fill-empty-spaces: gray glass pane
-            display: Iron pickaxe
-            lore:
+            Menu: '&8&l» &7&nTools'
+            Size: 6
+            Type: Category
+            Name: '&8▪ &7Tools &8▪'
+            Slot: 15
+            Back-Slot: 49
+            Fill-Empty-Spaces: gray glass pane
+            Display: Iron pickaxe
+            Lore:
             - ''
-            page:
+            Page:
                 '1':
                     Diamond Pickaxe:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nDiamond Pickaxe'
-                            msg: '&6&nDiamond Pickaxe'
-                        slot: 10
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nDiamond Pickaxe'
+                            Msg: '&6&nDiamond Pickaxe'
+                        Slot: 10
                         BuyPrice: 3000
-                        item: Diamond pickaxe
+                        Item: Diamond pickaxe
                     Iron Pickaxe:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nIron Pickaxe'
-                            msg: '&6&nIron Pickaxe'
-                        slot: 19
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nIron Pickaxe'
+                            Msg: '&6&nIron Pickaxe'
+                        Slot: 19
                         BuyPrice: 1500
-                        item: Iron pickaxe
+                        Item: Iron pickaxe
                     Stone Pickaxe:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nStone Pickaxe'
-                            msg: '&6&nStone Pickaxe'
-                        slot: 28
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nStone Pickaxe'
+                            Msg: '&6&nStone Pickaxe'
+                        Slot: 28
                         BuyPrice: 650
-                        item: Stone Pickaxe
+                        Item: Stone Pickaxe
                     Diamond Axe:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nDiamond Axe'
-                            msg: '&6&nDiamond Axe'
-                        slot: 13
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nDiamond Axe'
+                            Msg: '&6&nDiamond Axe'
+                        Slot: 13
                         BuyPrice: 3000
-                        item: Diamond axe
+                        Item: Diamond axe
                     Iron Axe:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nIron Axe'
-                            msg: '&6&nIron Axe'
-                        slot: 22
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nIron Axe'
+                            Msg: '&6&nIron Axe'
+                        Slot: 22
                         BuyPrice: 1500
-                        item: Iron Axe
+                        Item: Iron Axe
                     Stone Axe:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nStone Axe'
-                            msg: '&6&nStone Axe'
-                        slot: 31
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nStone Axe'
+                            Msg: '&6&nStone Axe'
+                        Slot: 31
                         BuyPrice: 650
-                        item: Stone Axe
+                        Item: Stone Axe
                     Diamond Shovel:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nDiamond Shovel'
-                            msg: '&6&nDiamond Shovel'
-                        slot: 16
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nDiamond Shovel'
+                            Msg: '&6&nDiamond Shovel'
+                        Slot: 16
                         BuyPrice: 3000
-                        item: Diamond Shovel
+                        Item: Diamond Shovel
                     Iron Shovel:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nIron Shovel'
-                            msg: '&6&nIron Shovel'
-                        slot: 25
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nIron Shovel'
+                            Msg: '&6&nIron Shovel'
+                        Slot: 25
                         BuyPrice: 1500
-                        item: Iron Shovel
+                        Item: Iron Shovel
                     Stone Shovel:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nStone Shovel'
-                            msg: '&6&nStone Shovel'
-                        slot: 34
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nStone Shovel'
+                            Msg: '&6&nStone Shovel'
+                        Slot: 34
                         BuyPrice: 650
-                        item: Stone Shovel
+                        Item: Stone Shovel
                     Fishing Rod:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nFishing Rod'
-                            msg: '&6&nFishing Rod'
-                        slot: 38
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nFishing Rod'
+                            Msg: '&6&nFishing Rod'
+                        Slot: 38
                         BuyPrice: 500
-                        item: Fishing Rod
+                        Item: Fishing Rod
                     Shears:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nShears'
-                            msg: '&6&nShears'
-                        slot: 42
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nShears'
+                            Msg: '&6&nShears'
+                        Slot: 42
                         BuyPrice: 750
-                        item: Shears
+                        Item: Shears
                     Borders:
-                        type: border
-                        display: black Glass pane
+                        Type: Border
+                        Display: black Glass pane
                         slots:
                         - 36
                         - 45
@@ -993,143 +996,145 @@ Shop:
                         - 8
                         - 17
         Farming:
-            GUI: '&8&l» &7&nFarming'
-            size: 6
-            type: category
-            name: '&8▪ &aFarming &8▪'
-            slot: 22
-            back-slot: 49
-            fill-empty-spaces: gray glass pane
-            display: Wheat
-            lore:
+            Menu: '&8&l» &7&nFarming'
+            Size: 6
+            Type: Category
+            Name: '&8▪ &aFarming &8▪'
+            Slot: 22
+            Back-Slot: 49
+            Fill-Empty-Spaces: gray glass pane
+            Display: Wheat
+            Lore:
             - ''
-            page:
+            Page:
                 '1':
                     Wheat Seeds:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nWheat Seeds'
-                            msg: '&6&nWheat Seeds'
-                        slot: 10
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nWheat Seeds'
+                            Msg: '&6&nWheat Seeds'
+                        Slot: 10
                         BuyPrice: 100
-                        item: 32 Wheat Seeds
+                        Item: 32 Wheat Seeds
                     Pumpkin Seeds:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nPumpkin Seeds'
-                            msg: '&6&nPumpkin Seedss'
-                        slot: 11
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nPumpkin Seeds'
+                            Msg: '&6&nPumpkin Seedss'
+                        Slot: 11
                         BuyPrice: 250
-                        item: 16 Pumpkin Seeds
+                        Item: 16 Pumpkin Seeds
                     Melon Seeds:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nMelon Seeds'
-                            msg: '&6&nMelon Seeds'
-                        slot: 13
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nMelon Seeds'
+                            Msg: '&6&nMelon Seeds'
+                        Slot: 13
                         BuyPrice: 250
-                        item: 16 Melon Seeds
+                        Item: 16 Melon Seeds
                     Cocoa Beans:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nCocoa Beans'
-                            msg: '&6&nCocoa Beans'
-                        slot: 14
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nCocoa Beans'
+                            Msg: '&6&nCocoa Beans'
+                        Slot: 14
                         BuyPrice: 250
-                        item: 16 Cocoa Beans
+                        Item: 16 Cocoa Beans
                     Beetroot Seeds:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nBeetroot Seeds'
-                            msg: '&6&nBeetroot Seeds'
-                        slot: 15
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nBeetroot Seeds'
+                            Msg: '&6&nBeetroot Seeds'
+                        Slot: 15
                         BuyPrice: 100
-                        item: 16 Beetroot Seeds
+                        Item: 16 Beetroot Seeds
                     Pumpkin:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nPumpkin'
-                            msg: '&6&nPumpkin'
-                        slot: 16
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nPumpkin'
+                            Msg: '&6&nPumpkin'
+                        Slot: 16
                         BuyPrice: 300
-                        item: Pumpkin
+                        Item: Pumpkin
                     Red Mushroom:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nRed Mushroom'
-                            msg: '&6&nRed Mushroom'
-                        slot: 19
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nRed Mushroom'
+                            Msg: '&6&nRed Mushroom'
+                        Slot: 19
                         BuyPrice: 250
-                        item: Red Mushroom
+                        Item: Red Mushroom
                     Brown Mushroom:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nBrown Mushroom'
-                            msg: '&6&nBrown Mushroom'
-                        slot: 20
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nBrown Mushroom'
+                            Msg: '&6&nBrown Mushroom'
+                        Slot: 20
                         BuyPrice: 250
-                        item: Brown Mushroom
+                        Item: Brown Mushroom
                     Cactus:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nCactus'
-                            msg: '&6&nCactus'
-                        slot: 21
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nCactus'
+                            Msg: '&6&nCactus'
+                        Slot: 21
                         BuyPrice: 250
-                        item: Cactus
+                        Item: Cactus
                     Sugar Canes:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nSugar Canes'
-                            msg: '&6&nSugar Canes'
-                        slot: 22
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nSugar Canes'
+                            Msg: '&6&nSugar Canes'
+                        Slot: 22
                         BuyPrice: 200
-                        item: Sugar Canes
+                        Item: Sugar Canes
                     Oak Sapling:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nOak Saplings'
-                            msg: '&6&nOak Sapling'
-                        slot: 23
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nOak Saplings'
+                            Msg: '&6&nOak Sapling'
+                        Slot: 23
                         BuyPrice: 100
-                        item: Oak Sapling
+                        Item: Oak Sapling
                     Spruce Sapling:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nSpruce Sapling'
-                            msg: '&6&nSpruce Sapling'
-                        slot: 24
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nSpruce Sapling'
+                            Msg: '&6&nSpruce Sapling'
+                        Slot: 24
                         BuyPrice: 100
-                        item: Spruce Sapling
+                        Item: Spruce Sapling
                     Birch Sapling:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nBirch Sapling'
-                            msg: '&6&nBirch Sapling'
-                        slot: 25
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nBirch Sapling'
+                            Msg: '&6&nBirch Sapling'
+                        Slot: 25
                         BuyPrice: 100
-                        item: Birch Sapling
+                        Item: Birch Sapling
                     Jungle Sapling:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nJungle Sapling'
-                            msg: '&6&nJungle Sapling'
-                        slot: 26
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nJungle Sapling'
+                            Msg: '&6&nJungle Sapling'
+                        Slot: 26
                         BuyPrice: 100
-                        item: Jungle Sapling
+                        Item: Jungle Sapling
                     Acacia Sapling:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nAcacia Sapling'
-                            msg: '&6&nAcacia Sapling'
-                        slot: 30
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nAcacia Sapling'
+                            Msg: '&6&nAcacia Sapling'
+                        Slot: 30
                         BuyPrice: 100
-                        item: Acacia Sapling
+                        Item: Acacia Sapling
                     Dark Oak Sapling:
-                        type: item
-                        name:
-                            gui: '&8&l» &6&nDark Oak Sapling'
-                            msg: '&6&nDark Oak Sapling'
-                        slot: 31
+                        Type: Item
+                        Name:
+                            Menu: '&8&l» &6&nDark Oak Sapling'
+                            Msg: '&6&nDark Oak Sapling'
+                        Slot: 31
                         BuyPrice: 100
-                        item: Dark Oak Sapling
+                        Item: Dark Oak Sapling
+    Sot-Sellable: '&cThis item cannot be sold.'
+    Not-Sellable: '&cThis item cannot be sold.'
